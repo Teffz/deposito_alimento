@@ -1,0 +1,15 @@
+CREATE DATABASE nome_do_banco;
+
+USE nome_do_banco;
+
+CREATE TABLE alimentos (
+    id_alimento INT AUTO_INCREMENT PRIMARY KEY,
+    categoria_alimento VARCHAR(255),
+    nome_do_alimento VARCHAR(255),
+    quantidade INT,
+    validade DATE,
+    marca VARCHAR(255),
+    data_entrada DATE,
+    data_saida DATE,
+    nome_doador VARCHAR(255)
+);
